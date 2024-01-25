@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>AI Generated Art</title>
+
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/vendor.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/vendor.js"></script>
+<script src="./js/app.js"></script>
+
+<header class="header-sticky header-light">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="navbar-logo navbar-logo-light" src="./images/generatorLogos/mainLogo.jpg" alt="Logo">
+                <img class="navbar-logo navbar-logo-dark" src="./images/generatorLogos/mainLogo.jpg" alt="Logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav align-items-center mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" role="button">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sections
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#images">
+                                <span>Images</span>
+                                <p>Have a look at what you can generate</p>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#prompts">
+                                <span>Generative Prompts</span>
+                                <p>See how it is done</p>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#subscribe">
+                                <span>Subscribe</span>
+                                <p>Ask for more</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+        </nav>
+    </div>
+</Header>
+
+<section class="pb-2">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 text-center p-10">
+                <h1 data-swiper-parallax="-100%" class="display-3"><b>Beautiful</b> AI Art. Simple & <i>Effective</i></h1>
+                <a href="#images" class="btn btn-purple btn-rounded px-5">Get Started</a>
+            </div>
+        </div>
+        </div>
+</section>
+<section>
+    <div class="container" id="images">
+        <div class="row">
+            <div class="col">
+                <ul class="masonry gallery row gutter-1">
+                    <li class="col-6">
+                        <figure class="photo equal equal-double">
+                            <a href="./images/artSmall/elephantinparissmall.jpg"
+                               style="background-image: url(./images/artSmall/elephantinparissmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="col-6">
+                        <figure class="photo equal">
+                            <a href="./images/artSmall/balconyovercitysmall.jpg"
+                               style="background-image: url(./images/artSmall/balconyovercitysmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="col-6">
+                        <figure class="photo equal equal-double">
+                            <a href="./images/artSmall/basketballandchesssmall.jpg"
+                               style="background-image: url(./images/artSmall/basketballandchesssmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="col-6">
+                        <figure class="photo equal">
+                            <a href="./images/artSmall/animalsinsuitsgettingcoffeesmall.jpg"
+                               style="background-image: url(./images/artSmall/animalsinsuitsgettingcoffeesmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="col-6">
+                        <figure class="photo equal equal-double">
+                            <a href="./images/artSmall/dimcitysmall.jpg"
+                               style="background-image: url(./images/artSmall/dimcitysmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="col-6">
+                        <figure class="photo equal">
+                            <a href="./images/artSmall/yellowcityanimalscoffeesmall.jpg"
+                               style="background-image: url(./images/artSmall/yellowcityanimalscoffeesmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="col-6">
+                        <figure class="photo equal">
+                            <a href="./images/artSmall/cowboysinvegassmall.jpg"
+                               style="background-image: url(./images/artSmall/cowboysinvegassmall.jpg);">
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="container">
+        <div class="owl-carousel visible" data-items="[3,2]" data-margin="30">
+            <div class="step">
+                <h4 class="step-title">Sign-up</h4>
+                <p>In most cases these sites are free or provide limited generations.</p>
+            </div>
+            <div class="step">
+                <h4 class="step-title">Second</h4>
+                <p>Design your generative prompt. Pick nouns, actions and adjectives. Can you guuess the prompts I would have used above?</p>
+            </div>
+            <div class="step">
+                <h4 class="step-title">Go!</h4>
+                <p>Click Go! In some cases advanced secondary options can further guide the generator.</p>
+            </div>
+        </div>
+    </div>
+<div class="container pt-5" id="prompts"></div>
+    <div class="container bg-light">
+    <div class="accordion-group" data-accordion-group>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 1</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>A street of colorful Parisian storefronts and an elephant walking down the street.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 2</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>A cityscape at night-time looking over a balcony with tall buildings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 3</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>A modern city in which animals wear suits and drink coffee.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 4</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>A basketball court in the inner city with chess boards and chairs on the side.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 5</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>A cityscape at night-time overlooking rooftops. But this time on Imagine</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 6</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>A modern city in which animals wear suits and drink coffee. But this time on Imagine</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div class="accordion-control" data-control>
+                <h5>Picture 7</h5>
+            </div>
+            <div class="accordion-content" data-content>
+                <div class="accordion-content-wrapper">
+                    <p>Cowboys in Las Vegas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="container pt-3"></div>
+<div class="container bg-primary text-white">
+    <div class="owl-carousel visible accent" data-dots="false" data-loop="true" data-margin="100" data-autoplay="true">
+        <blockquote class="blockquote blockquote-1">
+            <p>AI-generated art offers endless creativity, democratizes artistic expression, and pushes the boundaries of human imagination, fostering innovation in the arts.</p>
+            <footer class="blockquote-footer">
+                <div class="media align-items-center">
+                    <img class="avatar user-rounded pb-1" src="./images/generatorLogos/headshot2.jpg" alt="Avatar">
+                    <div class="media-body ml-2">
+                        <span class="d-block mb-0">Chat GPT itself</span>
+                        <small class="text-white">OpenAI</small>
+                    </div>
+                </div>
+            </footer>
+        </blockquote>
+        <blockquote class="blockquote blockquote-1 text-white">
+            <p>I love having something to look at during the day, as a break from the numbers!</p>
+            <footer class="blockquote-footer">
+                <div class="media align-items-center">
+                    <img class="avatar user-rounded" src="./images/generatorLogos/headshot1.jpg" alt="Avatar">
+                    <div class="media-body ml-2">
+                        <span class="d-block mb-0">John Doe</span>
+                        <small class="text-white">Regular computer user</small>
+                    </div>
+                </div>
+            </footer>
+        </blockquote>
+    </div>
+</div>
+<section>
+    <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h4>Sites Used</h4>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="component-1">
+            <div class="tab-pane show active" id="component-1-1" role="tabpanel" aria-labelledby="component-1-1">
+                <div class="component-example">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col partners align-items-center">
+                                <div class="owl-carousel" data-items="[3,3,3]" data-loop="true" data-autoplay="true">
+                                    <div class="logo">
+                                        <img src="./images/generatorLogos/adobefirefly.png" alt="Adobe Firefly">
+                                    </div>
+                                    <div class="logo">
+                                        <img src="./images/generatorLogos/dalle3.png" alt="Dall E 3">
+                                    </div>
+                                    <div class="logo">
+                                        <img src="./images/generatorLogos/imaginationlogo.png" alt="Imagine">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+    <div class="container pb-5">
+    <div class="bordered p-4">
+        <div class="row justify-content-between align-items-center text-center text-md-left">
+            <div class="col-md-2">
+                <i class="svg-icon fs-60 text-blue">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                    </svg>
+                </i>
+            </div>
+            <div class="col-md-6">
+                <h3 class="mb-1">Get in touch with me.</h3>
+                <p></p>
+            </div>
+            <div class="col-md-4 text-lg-right">
+                <a href="" class="btn btn-primary btn-rounded px-5">Call</a>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+        <div class="tab-pane show active" id="component-3-2" role="tabpanel" aria-labelledby="component-3-2">
+
+            <div class="component-example component-example-fit">
+                <footer class="bg-dark text-white">
+                    <div class="container" id="subscribe">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 text-center">
+                                <h2>Subscribe to get new art weekly.</h2>
+                                <form class="form form-cta mt-2">
+                                    <div class="form-group">
+                                        <div class="row gutter-0">
+                                            <div class="col-8">
+                                                <input type="email" class="form-control form-control-rounded" id="exampleInputEmail1" placeholder="Insert your email">
+                                            </div>
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-white btn-rounded btn-block">Subscribe</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="separator-top">
+                        <div class="container py-5">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-5 text-center text-md-left">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contacts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Legal Information</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 text-center">
+                                    <img width="100" src="./images/generatorLogos/mainLogo.jpg" alt="Logo">
+                                </div>
+                                <div class="col-md-5 text-center text-md-right">
+                                    <ul class="socials">
+                                        <li><a href="" class="icon-facebook fs-20"></a></li>
+                                        <li><a href="" class="icon-instagram fs-20"></a></li>
+                                        <li><a href="" class="icon-twitter fs-20"></a></li>
+                                        <li><a href="" class="icon-linkedin fs-20"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
